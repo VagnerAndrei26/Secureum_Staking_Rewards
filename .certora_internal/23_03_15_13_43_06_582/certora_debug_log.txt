@@ -1,0 +1,20 @@
+Saving last configuration file to .certora_internal/23_03_15_13_43_06_582/.last_confs/last_conf_15_03_2023__13_43_06.conf
+contract name StakingRewardsHarness is the same as the file name and can be omitted from harness/StakingRewardsHarness.sol:StakingRewardsHarness
+Default package file package.json not found, external contract dependencies could be unresolved. Ignore if solc invocation was successful
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_13_43_06_582/.certora_config
+In /home/vagner/Secureum_Staking_Rewards/spec/StakingRewards.spec, found the imports: [('./erc20.spec', '1:1')]
+In /home/vagner/Secureum_Staking_Rewards/spec/erc20.spec, found the imports: []
+copying spec file /home/vagner/Secureum_Staking_Rewards/spec/StakingRewards.spec to /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_13_43_06_582/.certora_config/0_StakingRewards.spec.spec
+writing /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_13_43_06_582/.certora_verify.json
+running ['java', '-jar', '/home/vagner/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-v', '.certora_internal/23_03_15_13_43_06_582/.certora_verify.json', '-m', '.certora_internal/23_03_15_13_43_06_582/.certora_metadata.json', '-d', '.certora_internal/23_03_15_13_43_06_582']
+Failed to compile spec file
+[main] ERROR ALWAYS - spec/StakingRewards.spec:144:5: Syntax error: unexpected token near EVM_TYPE(uint256)
+[main] ERROR ALWAYS - spec/StakingRewards.spec:144:5: Couldn't repair and continue parse unexpected token near EVM_TYPE(uint256)
+[main] ERROR ALWAYS - CVL parser failed with exception. Exception message: "Failed to parse spec/StakingRewards.spec. Exiting."
+spec.CVLAstBuilder$CVLParsingException: java.lang.Exception: Failed to parse spec/StakingRewards.spec. Exiting.
+build failed
+Failure traceback: 
+Shared.certoraUtils.CertoraUserInputError: Syntax error in specification file
+Encountered an error running Certora Prover:
+Syntax error in specification file

@@ -1,0 +1,363 @@
+Saving last configuration file to .certora_internal/23_03_15_14_35_21_065/.last_confs/last_conf_15_03_2023__14_35_21.conf
+contract name StakingRewardsHarness is the same as the file name and can be omitted from harness/StakingRewardsHarness.sol:StakingRewardsHarness
+Default package file package.json not found, external contract dependencies could be unresolved. Ignore if solc invocation was successful
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config
+In /home/vagner/Secureum_Staking_Rewards/spec/StakingRewards.spec, found the imports: [('./erc20.spec', '1:1')]
+In /home/vagner/Secureum_Staking_Rewards/spec/erc20.spec, found the imports: []
+copying spec file /home/vagner/Secureum_Staking_Rewards/spec/StakingRewards.spec to /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/0_StakingRewards.spec.spec
+writing /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_verify.json
+running ['java', '-jar', '/home/vagner/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-v', '.certora_internal/23_03_15_14_35_21_065/.certora_verify.json', '-m', '.certora_internal/23_03_15_14_35_21_065/.certora_metadata.json', '-d', '.certora_internal/23_03_15_14_35_21_065']
+
+building file DummyERC20A.sol
+relevant solc is /usr/bin/solc
+about to run /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20A.sol_0/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards",. --standard-json
+solc input = {
+    "language": "Solidity",
+    "sources": {
+        "/home/vagner/Secureum_Staking_Rewards/DummyERC20A.sol": {
+            "urls": [
+                "/home/vagner/Secureum_Staking_Rewards/DummyERC20A.sol"
+            ]
+        }
+    },
+    "settings": {
+        "remappings": [],
+        "outputSelection": {
+            "*": {
+                "*": [
+                    "storageLayout",
+                    "abi",
+                    "evm.bytecode",
+                    "evm.deployedBytecode",
+                    "evm.methodIdentifiers",
+                    "evm.assembly"
+                ],
+                "": [
+                    "id",
+                    "ast"
+                ]
+            }
+        }
+    }
+}
+Running cmd /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20A.sol_0/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards",. --standard-json
+stdout, stderr = /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20A.sol_0.standard.json.stdout, /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20A.sol_0.standard.json.stderr
+Exitcode 0
+Solc run /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20A.sol_0/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards",. --standard-json time: 0.0508
+Collecting standard json: /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20A.sol_0/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards",. --standard-json
+reading standard json data from /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20A.sol_0.standard.json.stdout
+visiting contract file /home/vagner/Secureum_Staking_Rewards/DummyERC20A.sol
+relevant solc is /usr/bin/solc
+Running cmd /usr/bin/solc --version
+stdout, stderr = /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/version_check_solc.stdout, /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run /usr/bin/solc --version time: 0.0083
+collecting worklist for /home/vagner/Secureum_Staking_Rewards/DummyERC20A.sol
+Processing dependencies from file /home/vagner/Secureum_Staking_Rewards/DummyERC20A.sol
+available keys: dict_keys(['/home/vagner/Secureum_Staking_Rewards/DummyERC20A.sol', '/home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol'])
+Adding a base contract link ref /home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol to worklist
+base contracts [('/home/vagner/Secureum_Staking_Rewards/DummyERC20A.sol', 'DummyERC20A', False), ('/home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol', 'DummyERC20Impl', False)]
+Processing dependencies from file /home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol
+available keys: dict_keys(['/home/vagner/Secureum_Staking_Rewards/DummyERC20A.sol', '/home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol'])
+base contracts [('/home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol', 'DummyERC20Impl', False)]
+Contracts in DummyERC20A.sol_0 (file DummyERC20A.sol): ['DummyERC20A']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587200, '/home/vagner/Secureum_Staking_Rewards/DummyERC20A.sol:DummyERC20A'), (274184521717934524641157099916833587201, '/home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol:DummyERC20Impl')]
+Working on contract DummyERC20A
+Working on contract DummyERC20A
+Working on contract DummyERC20Impl
+Working on contract DummyERC20Impl
+For contracts of primary DummyERC20A
+finding primary contract address of /home/vagner/Secureum_Staking_Rewards/DummyERC20A.sol:DummyERC20A in [(274184521717934524641157099916833587200, '/home/vagner/Secureum_Staking_Rewards/DummyERC20A.sol:DummyERC20A'), (274184521717934524641157099916833587201, '/home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol:DummyERC20Impl')]
+Contracts in SDC DummyERC20A.sol_0: ['DummyERC20A', 'DummyERC20Impl']
+relevant solc is /usr/bin/solc
+about to run /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20A.sol_0/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources",. --standard-json
+solc input = {
+    "language": "Solidity",
+    "sources": {
+        "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20A.sol": {
+            "urls": [
+                "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20A.sol"
+            ]
+        }
+    },
+    "settings": {
+        "remappings": [],
+        "outputSelection": {
+            "*": {
+                "*": [
+                    "storageLayout",
+                    "abi",
+                    "evm.bytecode",
+                    "evm.deployedBytecode",
+                    "evm.methodIdentifiers",
+                    "evm.assembly"
+                ],
+                "": [
+                    "id",
+                    "ast"
+                ]
+            }
+        }
+    }
+}
+Running cmd /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20A.sol_0/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources",. --standard-json
+stdout, stderr = /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20A.sol_0.standard.json.stdout, /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20A.sol_0.standard.json.stderr
+Exitcode 0
+Solc run /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20A.sol_0/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources",. --standard-json time: 0.0605
+Collecting standard json: /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20A.sol_0/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources",. --standard-json
+reading standard json data from /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20A.sol_0.standard.json.stdout
+collecting worklist for /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20A.sol
+Processing dependencies from file /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20A.sol
+available keys: dict_keys(['/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20A.sol', '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol'])
+Adding a base contract link ref /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol to worklist
+base contracts [('/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20A.sol', 'DummyERC20A', False), ('/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol', 'DummyERC20Impl', False)]
+Processing dependencies from file /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol
+available keys: dict_keys(['/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20A.sol', '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol'])
+base contracts [('/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol', 'DummyERC20Impl', False)]
+Contracts in autoFinder_DummyERC20A.sol_0 (file .certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20A.sol): ['DummyERC20A']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587202, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20A.sol:DummyERC20A'), (274184521717934524641157099916833587203, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol:DummyERC20Impl')]
+Working on contract DummyERC20A
+Working on contract DummyERC20A
+Working on contract DummyERC20Impl
+Working on contract DummyERC20Impl
+For contracts of primary DummyERC20A
+finding primary contract address of /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20A.sol:DummyERC20A in [(274184521717934524641157099916833587202, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20A.sol:DummyERC20A'), (274184521717934524641157099916833587203, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol:DummyERC20Impl')]
+Contracts in SDC autoFinder_DummyERC20A.sol_0: ['DummyERC20A', 'DummyERC20Impl']
+Libraries to add = []
+
+building file DummyERC20B.sol
+relevant solc is /usr/bin/solc
+about to run /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20B.sol_1/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards",. --standard-json
+solc input = {
+    "language": "Solidity",
+    "sources": {
+        "/home/vagner/Secureum_Staking_Rewards/DummyERC20B.sol": {
+            "urls": [
+                "/home/vagner/Secureum_Staking_Rewards/DummyERC20B.sol"
+            ]
+        }
+    },
+    "settings": {
+        "remappings": [],
+        "outputSelection": {
+            "*": {
+                "*": [
+                    "storageLayout",
+                    "abi",
+                    "evm.bytecode",
+                    "evm.deployedBytecode",
+                    "evm.methodIdentifiers",
+                    "evm.assembly"
+                ],
+                "": [
+                    "id",
+                    "ast"
+                ]
+            }
+        }
+    }
+}
+Running cmd /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20B.sol_1/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards",. --standard-json
+stdout, stderr = /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20B.sol_1.standard.json.stdout, /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20B.sol_1.standard.json.stderr
+Exitcode 0
+Solc run /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20B.sol_1/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards",. --standard-json time: 0.0499
+Collecting standard json: /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20B.sol_1/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards",. --standard-json
+reading standard json data from /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/DummyERC20B.sol_1.standard.json.stdout
+visiting contract file /home/vagner/Secureum_Staking_Rewards/DummyERC20B.sol
+relevant solc is /usr/bin/solc
+collecting worklist for /home/vagner/Secureum_Staking_Rewards/DummyERC20B.sol
+Processing dependencies from file /home/vagner/Secureum_Staking_Rewards/DummyERC20B.sol
+available keys: dict_keys(['/home/vagner/Secureum_Staking_Rewards/DummyERC20B.sol', '/home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol'])
+Adding a base contract link ref /home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol to worklist
+base contracts [('/home/vagner/Secureum_Staking_Rewards/DummyERC20B.sol', 'DummyERC20B', False), ('/home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol', 'DummyERC20Impl', False)]
+Processing dependencies from file /home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol
+available keys: dict_keys(['/home/vagner/Secureum_Staking_Rewards/DummyERC20B.sol', '/home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol'])
+base contracts [('/home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol', 'DummyERC20Impl', False)]
+Contracts in DummyERC20B.sol_1 (file DummyERC20B.sol): ['DummyERC20B']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587204, '/home/vagner/Secureum_Staking_Rewards/DummyERC20B.sol:DummyERC20B'), (274184521717934524641157099916833587205, '/home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol:DummyERC20Impl')]
+Working on contract DummyERC20B
+Working on contract DummyERC20B
+Working on contract DummyERC20Impl
+Working on contract DummyERC20Impl
+For contracts of primary DummyERC20B
+finding primary contract address of /home/vagner/Secureum_Staking_Rewards/DummyERC20B.sol:DummyERC20B in [(274184521717934524641157099916833587204, '/home/vagner/Secureum_Staking_Rewards/DummyERC20B.sol:DummyERC20B'), (274184521717934524641157099916833587205, '/home/vagner/Secureum_Staking_Rewards/DummyERC20Impl.sol:DummyERC20Impl')]
+Contracts in SDC DummyERC20B.sol_1: ['DummyERC20B', 'DummyERC20Impl']
+relevant solc is /usr/bin/solc
+about to run /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20B.sol_1/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources",. --standard-json
+solc input = {
+    "language": "Solidity",
+    "sources": {
+        "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20B.sol": {
+            "urls": [
+                "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20B.sol"
+            ]
+        }
+    },
+    "settings": {
+        "remappings": [],
+        "outputSelection": {
+            "*": {
+                "*": [
+                    "storageLayout",
+                    "abi",
+                    "evm.bytecode",
+                    "evm.deployedBytecode",
+                    "evm.methodIdentifiers",
+                    "evm.assembly"
+                ],
+                "": [
+                    "id",
+                    "ast"
+                ]
+            }
+        }
+    }
+}
+Running cmd /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20B.sol_1/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources",. --standard-json
+stdout, stderr = /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20B.sol_1.standard.json.stdout, /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20B.sol_1.standard.json.stderr
+Exitcode 0
+Solc run /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20B.sol_1/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources",. --standard-json time: 0.059
+Collecting standard json: /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20B.sol_1/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources",. --standard-json
+reading standard json data from /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_DummyERC20B.sol_1.standard.json.stdout
+collecting worklist for /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20B.sol
+Processing dependencies from file /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20B.sol
+available keys: dict_keys(['/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20B.sol', '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol'])
+Adding a base contract link ref /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol to worklist
+base contracts [('/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20B.sol', 'DummyERC20B', False), ('/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol', 'DummyERC20Impl', False)]
+Processing dependencies from file /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol
+available keys: dict_keys(['/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20B.sol', '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol'])
+base contracts [('/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol', 'DummyERC20Impl', False)]
+Contracts in autoFinder_DummyERC20B.sol_1 (file .certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20B.sol): ['DummyERC20B']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587206, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20B.sol:DummyERC20B'), (274184521717934524641157099916833587207, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol:DummyERC20Impl')]
+Working on contract DummyERC20B
+Working on contract DummyERC20B
+Working on contract DummyERC20Impl
+Working on contract DummyERC20Impl
+For contracts of primary DummyERC20B
+finding primary contract address of /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20B.sol:DummyERC20B in [(274184521717934524641157099916833587206, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20B.sol:DummyERC20B'), (274184521717934524641157099916833587207, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_DummyERC20Impl.sol:DummyERC20Impl')]
+Contracts in SDC autoFinder_DummyERC20B.sol_1: ['DummyERC20B', 'DummyERC20Impl']
+Libraries to add = []
+
+building file harness/StakingRewardsHarness.sol
+relevant solc is /usr/bin/solc
+about to run /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/StakingRewardsHarness.sol_2/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards",. --standard-json
+solc input = {
+    "language": "Solidity",
+    "sources": {
+        "/home/vagner/Secureum_Staking_Rewards/harness/StakingRewardsHarness.sol": {
+            "urls": [
+                "/home/vagner/Secureum_Staking_Rewards/harness/StakingRewardsHarness.sol"
+            ]
+        }
+    },
+    "settings": {
+        "remappings": [],
+        "outputSelection": {
+            "*": {
+                "*": [
+                    "storageLayout",
+                    "abi",
+                    "evm.bytecode",
+                    "evm.deployedBytecode",
+                    "evm.methodIdentifiers",
+                    "evm.assembly"
+                ],
+                "": [
+                    "id",
+                    "ast"
+                ]
+            }
+        }
+    }
+}
+Running cmd /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/StakingRewardsHarness.sol_2/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards",. --standard-json
+stdout, stderr = /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/StakingRewardsHarness.sol_2.standard.json.stdout, /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/StakingRewardsHarness.sol_2.standard.json.stderr
+Exitcode 0
+Solc run /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/StakingRewardsHarness.sol_2/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards",. --standard-json time: 0.0807
+Collecting standard json: /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/StakingRewardsHarness.sol_2/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards",. --standard-json
+reading standard json data from /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/StakingRewardsHarness.sol_2.standard.json.stdout
+visiting contract file /home/vagner/Secureum_Staking_Rewards/harness/StakingRewardsHarness.sol
+relevant solc is /usr/bin/solc
+collecting worklist for /home/vagner/Secureum_Staking_Rewards/harness/StakingRewardsHarness.sol
+Processing dependencies from file /home/vagner/Secureum_Staking_Rewards/harness/StakingRewardsHarness.sol
+available keys: dict_keys(['/home/vagner/Secureum_Staking_Rewards/StakingRewards.sol', '/home/vagner/Secureum_Staking_Rewards/harness/StakingRewardsHarness.sol'])
+Adding a base contract link ref /home/vagner/Secureum_Staking_Rewards/StakingRewards.sol to worklist
+base contracts [('/home/vagner/Secureum_Staking_Rewards/StakingRewards.sol', 'StakingRewards', False), ('/home/vagner/Secureum_Staking_Rewards/harness/StakingRewardsHarness.sol', 'StakingRewardsHarness', False)]
+Processing dependencies from file /home/vagner/Secureum_Staking_Rewards/StakingRewards.sol
+available keys: dict_keys(['/home/vagner/Secureum_Staking_Rewards/StakingRewards.sol', '/home/vagner/Secureum_Staking_Rewards/harness/StakingRewardsHarness.sol'])
+base contracts [('/home/vagner/Secureum_Staking_Rewards/StakingRewards.sol', 'IERC20', False)]
+base contracts [('/home/vagner/Secureum_Staking_Rewards/StakingRewards.sol', 'StakingRewards', False)]
+Contracts in StakingRewardsHarness.sol_2 (file harness/StakingRewardsHarness.sol): ['StakingRewardsHarness']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587208, '/home/vagner/Secureum_Staking_Rewards/StakingRewards.sol:IERC20'), (274184521717934524641157099916833587209, '/home/vagner/Secureum_Staking_Rewards/StakingRewards.sol:StakingRewards'), (274184521717934524641157099916833587210, '/home/vagner/Secureum_Staking_Rewards/harness/StakingRewardsHarness.sol:StakingRewardsHarness')]
+Working on contract IERC20
+Working on contract IERC20
+Working on contract StakingRewards
+Working on contract StakingRewards
+Working on contract StakingRewardsHarness
+Working on contract StakingRewardsHarness
+For contracts of primary StakingRewardsHarness
+finding primary contract address of /home/vagner/Secureum_Staking_Rewards/harness/StakingRewardsHarness.sol:StakingRewardsHarness in [(274184521717934524641157099916833587208, '/home/vagner/Secureum_Staking_Rewards/StakingRewards.sol:IERC20'), (274184521717934524641157099916833587209, '/home/vagner/Secureum_Staking_Rewards/StakingRewards.sol:StakingRewards'), (274184521717934524641157099916833587210, '/home/vagner/Secureum_Staking_Rewards/harness/StakingRewardsHarness.sol:StakingRewardsHarness')]
+Contracts in SDC StakingRewardsHarness.sol_2: ['IERC20', 'StakingRewards', 'StakingRewardsHarness']
+relevant solc is /usr/bin/solc
+about to run /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_StakingRewardsHarness.sol_2/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources",. --standard-json
+solc input = {
+    "language": "Solidity",
+    "sources": {
+        "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/harness/autoFinder_StakingRewardsHarness.sol": {
+            "urls": [
+                "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/harness/autoFinder_StakingRewardsHarness.sol"
+            ]
+        }
+    },
+    "settings": {
+        "remappings": [],
+        "outputSelection": {
+            "*": {
+                "*": [
+                    "storageLayout",
+                    "abi",
+                    "evm.bytecode",
+                    "evm.deployedBytecode",
+                    "evm.methodIdentifiers",
+                    "evm.assembly"
+                ],
+                "": [
+                    "id",
+                    "ast"
+                ]
+            }
+        }
+    }
+}
+Running cmd /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_StakingRewardsHarness.sol_2/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources",. --standard-json
+stdout, stderr = /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_StakingRewardsHarness.sol_2.standard.json.stdout, /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_StakingRewardsHarness.sol_2.standard.json.stderr
+Exitcode 0
+Solc run /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_StakingRewardsHarness.sol_2/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources",. --standard-json time: 0.0875
+Collecting standard json: /usr/bin/solc -o "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_StakingRewardsHarness.sol_2/" --overwrite --allow-paths "/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources",. --standard-json
+reading standard json data from /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_config/autoFinder_StakingRewardsHarness.sol_2.standard.json.stdout
+collecting worklist for /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/harness/autoFinder_StakingRewardsHarness.sol
+Processing dependencies from file /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/harness/autoFinder_StakingRewardsHarness.sol
+available keys: dict_keys(['/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_StakingRewards.sol', '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/harness/autoFinder_StakingRewardsHarness.sol'])
+Adding a base contract link ref /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_StakingRewards.sol to worklist
+base contracts [('/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_StakingRewards.sol', 'StakingRewards', False), ('/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/harness/autoFinder_StakingRewardsHarness.sol', 'StakingRewardsHarness', False)]
+Processing dependencies from file /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_StakingRewards.sol
+available keys: dict_keys(['/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_StakingRewards.sol', '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/harness/autoFinder_StakingRewardsHarness.sol'])
+base contracts [('/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_StakingRewards.sol', 'IERC20', False)]
+base contracts [('/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_StakingRewards.sol', 'StakingRewards', False)]
+Contracts in autoFinder_StakingRewardsHarness.sol_2 (file .certora_internal/23_03_15_14_35_21_065/.certora_sources/harness/autoFinder_StakingRewardsHarness.sol): ['StakingRewardsHarness']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587211, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_StakingRewards.sol:IERC20'), (274184521717934524641157099916833587212, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_StakingRewards.sol:StakingRewards'), (274184521717934524641157099916833587213, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/harness/autoFinder_StakingRewardsHarness.sol:StakingRewardsHarness')]
+Working on contract IERC20
+Working on contract IERC20
+Working on contract StakingRewards
+Working on contract StakingRewards
+Working on contract StakingRewardsHarness
+Working on contract StakingRewardsHarness
+For contracts of primary StakingRewardsHarness
+finding primary contract address of /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/harness/autoFinder_StakingRewardsHarness.sol:StakingRewardsHarness in [(274184521717934524641157099916833587211, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_StakingRewards.sol:IERC20'), (274184521717934524641157099916833587212, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/autoFinder_StakingRewards.sol:StakingRewards'), (274184521717934524641157099916833587213, '/home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_sources/harness/autoFinder_StakingRewardsHarness.sol:StakingRewardsHarness')]
+Contracts in SDC autoFinder_StakingRewardsHarness.sol_2: ['IERC20', 'StakingRewards', 'StakingRewardsHarness']
+Libraries to add = []
+Reference to replace with link: rewardsToken
+Reference to replace with link: stakingToken
+writing file /home/vagner/Secureum_Staking_Rewards/.certora_internal/23_03_15_14_35_21_065/.certora_build.json
+running ['java', '-jar', '/home/vagner/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-b', '.certora_internal/23_03_15_14_35_21_065/.certora_build.json', '-v', '.certora_internal/23_03_15_14_35_21_065/.certora_verify.json', '-m', '.certora_internal/23_03_15_14_35_21_065/.certora_metadata.json', '-d', '.certora_internal/23_03_15_14_35_21_065']

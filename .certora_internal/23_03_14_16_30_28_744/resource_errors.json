@@ -1,0 +1,49 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:145:5): Variable e2 is undefined (first instance only reported)",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:139:5): could not type expression \"e2\", message: unknown variable \"e2\"",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:139:5): could not type expression \"e2.msg\", message: e2 could not be typed",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:139:5): could not type expression \"e2.msg.sender\", message: e2.msg could not be typed",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:140:5): could not type expression \"e2\", message: unknown variable \"e2\"",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:140:5): could not type expression \"stake(e2,amount)\", message: at location StakingRewards.spec:140:5 : looked up a method stake but some arguments are not well typed",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:145:5): could not type expression \"e2\", message: unknown variable \"e2\"",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:145:5): could not type expression \"e2.block\", message: e2 could not be typed",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:145:5): could not type expression \"e2.block.timestamp\", message: e2.block could not be typed",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:145:5): could not type expression \"e1.block.timestamp < e2.block.timestamp\", message: e2.block could not be typed",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

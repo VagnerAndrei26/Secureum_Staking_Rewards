@@ -1,0 +1,173 @@
+{
+    "CLI_version": "3.6.4",
+    "branch": "master",
+    "conf": {
+        "files": [
+            "./DummyERC20A.sol",
+            "./DummyERC20B.sol",
+            "./harness/StakingRewardsHarness.sol:StakingRewardsHarness"
+        ],
+        "link": [
+            "StakingRewardsHarness:rewardsToken=DummyERC20B",
+            "StakingRewardsHarness:stakingToken=DummyERC20A"
+        ],
+        "msg": "First commit",
+        "process": "emv",
+        "rule": [
+            "moreTokensMoreTimeStaked"
+        ],
+        "rule_sanity": "basic",
+        "run_source": "COMMAND",
+        "send_only": true,
+        "settings": [
+            "-rule=moreTokensMoreTimeStaked",
+            "-ruleSanityChecks=basic"
+        ],
+        "verify": [
+            "StakingRewardsHarness:spec/StakingRewards.spec"
+        ]
+    },
+    "context": {
+        "address": {},
+        "assert_contracts": null,
+        "build_dir": null,
+        "build_only": false,
+        "bytecode_jsons": null,
+        "bytecode_spec": null,
+        "cache": "./DummyERC20A.sol-./DummyERC20B.sol-./harness/StakingRewardsHarness.sol:StakingRewardsHarness-optimisticFalse-iterNone",
+        "check_args": false,
+        "cloud": null,
+        "coinbaseMode": false,
+        "commit_sha1": null,
+        "conf_file": "last_conf_14_03_2023__16_32_06.conf",
+        "contract_to_file": {
+            "DummyERC20A": "DummyERC20A.sol",
+            "DummyERC20B": "DummyERC20B.sol",
+            "StakingRewardsHarness": "harness/StakingRewardsHarness.sol"
+        },
+        "contracts": [
+            "DummyERC20A",
+            "DummyERC20B",
+            "StakingRewardsHarness"
+        ],
+        "debug": false,
+        "debug_topics": null,
+        "delay_fetch_output_seconds": null,
+        "disableLocalTypeChecking": false,
+        "disable_auto_cache_key_gen": false,
+        "domain": "https://prover.certora.com",
+        "dynamic_bound": null,
+        "dynamic_dispatch": false,
+        "expected_file": "expected.json",
+        "file_paths": [
+            "harness/StakingRewardsHarness.sol",
+            "DummyERC20A.sol",
+            "DummyERC20B.sol"
+        ],
+        "file_to_contract": {
+            "DummyERC20A.sol": [
+                "DummyERC20A"
+            ],
+            "DummyERC20B.sol": [
+                "DummyERC20B"
+            ],
+            "harness/StakingRewardsHarness.sol": [
+                "StakingRewardsHarness"
+            ]
+        },
+        "files": [
+            "./DummyERC20A.sol",
+            "./DummyERC20B.sol",
+            "./harness/StakingRewardsHarness.sol:StakingRewardsHarness"
+        ],
+        "get_conf": null,
+        "hashing_length_bound": null,
+        "include_empty_fallback": false,
+        "internal_funcs": null,
+        "jar": null,
+        "java_args": null,
+        "link": [
+            "StakingRewardsHarness:rewardsToken=DummyERC20B",
+            "StakingRewardsHarness:stakingToken=DummyERC20A"
+        ],
+        "local": false,
+        "log_branch": null,
+        "log_query_frequency_seconds": null,
+        "loop_iter": null,
+        "max_attempts_to_fetch_output": null,
+        "max_graph_depth": null,
+        "max_poll_minutes": null,
+        "method": null,
+        "mode": "Mode.VERIFY",
+        "msg": "First commit",
+        "multi_assert_check": false,
+        "multi_example": null,
+        "no_calltrace_storage_information": false,
+        "no_compare": false,
+        "optimistic_hashing": false,
+        "optimistic_loop": false,
+        "optimize": null,
+        "optimize_map": null,
+        "packages": null,
+        "packages_path": "/home/vagner/Secureum_Staking_Rewards/node_modules",
+        "path": "/home/vagner/Secureum_Staking_Rewards",
+        "process": "emv",
+        "prototype": null,
+        "queue_wait_minutes": null,
+        "rule": [
+            "moreTokensMoreTimeStaked"
+        ],
+        "rule_sanity": "basic",
+        "run_source": "COMMAND",
+        "send_only": true,
+        "settings": [
+            "-rule=moreTokensMoreTimeStaked",
+            "-ruleSanityChecks=basic"
+        ],
+        "short_output": true,
+        "show_debug_topics": false,
+        "skip_payable_envfree_check": false,
+        "smt_timeout": null,
+        "solc": "/usr/bin/solc",
+        "solc_args": null,
+        "solc_map": null,
+        "spec_files": [
+            "spec/StakingRewards.spec"
+        ],
+        "staging": null,
+        "struct_link": null,
+        "tool_output": null,
+        "typecheck_only": false,
+        "user_defined_cache": false,
+        "verified_contract_files": [
+            "harness/StakingRewardsHarness.sol"
+        ],
+        "verify": [
+            "StakingRewardsHarness:spec/StakingRewards.spec"
+        ]
+    },
+    "cwd_relative": ".",
+    "dirty": true,
+    "origin": "https://github.com/VagnerAndrei26/Secureum_Staking_Rewards",
+    "raw_args": [
+        "/home/vagner/.local/bin/certoraRun",
+        "./harness/StakingRewardsHarness.sol:StakingRewardsHarness",
+        "./DummyERC20A.sol",
+        "./DummyERC20B.sol",
+        "--verify",
+        "StakingRewardsHarness:spec/StakingRewards.spec",
+        "--link",
+        "StakingRewardsHarness:stakingToken=DummyERC20A",
+        "--link",
+        "StakingRewardsHarness:rewardsToken=DummyERC20B",
+        "--send_only",
+        "--rule_sanity",
+        "basic",
+        "--rule",
+        "moreTokensMoreTimeStaked",
+        "--msg",
+        "First commit"
+    ],
+    "revision": "2efb4a1bc1ced706470ba952f8d8ed58e8c8977f",
+    "timestamp": "1678797126.153922"
+}

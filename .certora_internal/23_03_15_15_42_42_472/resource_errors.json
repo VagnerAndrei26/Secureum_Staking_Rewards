@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "spec/StakingRewards.spec:275:19: Syntax error: unexpected token near RELOP(==)",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

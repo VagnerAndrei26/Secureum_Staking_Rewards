@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:35:15): Some symbol with name sumOfBalances has already been declared in scope (Spec file).",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

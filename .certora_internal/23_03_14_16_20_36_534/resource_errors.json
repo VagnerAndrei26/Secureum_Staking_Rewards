@@ -1,0 +1,17 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:122:5): Variable totalSupply is undefined (first instance only reported)",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:122:5): could not type expression \"totalSupply\", message: unknown variable \"totalSupply\"",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

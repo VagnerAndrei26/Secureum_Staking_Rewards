@@ -1,0 +1,17 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:121:5): could not type expression \"earned(user)\", message: Could not find an overloading of method earned that matches the given arguments: address. Method is not envfree; did you forget to provide the environment as the first function argument?",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:122:5): could not type expression \"earned(user2)\", message: Could not find an overloading of method earned that matches the given arguments: address. Method is not envfree; did you forget to provide the environment as the first function argument?",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

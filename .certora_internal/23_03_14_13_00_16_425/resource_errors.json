@@ -1,0 +1,29 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:101:11): Variable e is undefined (first instance only reported)",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:101:11): could not type expression \"e\", message: unknown variable \"e\"",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:101:11): could not type expression \"e.msg\", message: e could not be typed",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:101:11): could not type expression \"e.msg.sender\", message: e.msg could not be typed",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:101:11): could not type expression \"balanceOf(e.msg.sender)\", message: at location StakingRewards.spec:101:11 : looked up a method balanceOf but some arguments are not well typed",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

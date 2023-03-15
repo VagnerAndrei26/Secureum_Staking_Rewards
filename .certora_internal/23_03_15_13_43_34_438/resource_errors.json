@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "spec/StakingRewards.spec:149:12: Syntax error: unexpected token near &&",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

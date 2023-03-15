@@ -1,0 +1,17 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:37:5): Variable user is undefined (first instance only reported)",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:37:5): could not type expression \"user\", message: unknown variable \"user\"",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:188:6): Encountered an empty rule: integrityOfGetRewards",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

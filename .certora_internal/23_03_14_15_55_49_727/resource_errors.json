@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "spec/StakingRewards.spec:121:5: Syntax error: unexpected token near require",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

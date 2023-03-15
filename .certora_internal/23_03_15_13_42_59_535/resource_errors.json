@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "spec/StakingRewards.spec:144:5: Syntax error: unexpected token near EVM_TYPE(uint256)",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

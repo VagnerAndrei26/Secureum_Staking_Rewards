@@ -1,0 +1,37 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:148:4): Variable user is undefined (first instance only reported)",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:137:4): could not type expression \"user\", message: unknown variable \"user\"",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:139:4): could not type expression \"user\", message: unknown variable \"user\"",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:139:4): could not type expression \"earned(e1,user)\", message: at location StakingRewards.spec:139:4 : looked up a method earned but some arguments are not well typed",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:142:4): could not type expression \"user\", message: unknown variable \"user\"",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:148:4): could not type expression \"user\", message: unknown variable \"user\"",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:148:4): could not type expression \"earned(e2,user)\", message: at location StakingRewards.spec:148:4 : looked up a method earned but some arguments are not well typed",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}
