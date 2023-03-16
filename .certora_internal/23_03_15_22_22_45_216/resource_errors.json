@@ -1,0 +1,29 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:233:5): Variable user1Balance is undefined (first instance only reported)",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:233:5): Variable user2Balance is undefined (first instance only reported)",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:233:5): could not type expression \"user1Balance\", message: unknown variable \"user1Balance\"",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:233:5): could not type expression \"user2Balance\", message: unknown variable \"user2Balance\"",
+                    "location": []
+                },
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:233:5): could not type expression \"user1Balance < user2Balance\", message: unknown variable \"user1Balance\"",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

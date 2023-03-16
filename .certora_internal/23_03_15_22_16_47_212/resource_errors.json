@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Syntax error in spec file (StakingRewards.spec:399:6): Identifier moreStakeMoreRewards has already been declared in scope (Spec file)",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}
